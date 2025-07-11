@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Student ID: [seneca_id] 
+# Student ID: rtang41 104448246
 class Time:
     """Simple object type for time of the day.
         data attributes: hour, minute, second
@@ -32,7 +32,7 @@ class Time:
 
     def time_to_sec(self):
         '''convert a time object to a single integer representing the 
-        number of seconds from mid-night'''
+        number of seconds from midnight'''
         minutes = self.hour * 60 + self.minute
         seconds = minutes * 60 + self.second
         return seconds
